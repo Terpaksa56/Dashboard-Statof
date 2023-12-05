@@ -72,12 +72,12 @@
         // Your data
         const years = [2018, 2019, 2020, 2021, 2022];
     const dataA = [4.55, 3.18, -1.38, 2.6, 3.59];
-    const dataB = [-0.17, 1.36, -1.06, -2.83, -9.97];
+    const dataB = [6.15, 5.76, -1.41, 2.39, 6.41];
 
     // Create datasets for each data series
     const datasets = [
-      { label: 'A - Pertanian, Kehutanan, dan Perikanan', data: dataA,backgroundColor: 'rgba(153, 102, 255, 0.2)' ,borderColor: 'rgb(153, 102, 255)' },
-      { label: 'B - Pertambangan dan Penggalian', data: dataB,backgroundColor: 'rgba(54, 162, 235, 0.2)',borderColor: 'rgba(54, 162, 235, 1)' }
+      { label: 'Pertanian, Kehutanan, dan Perikanan', data: dataA,backgroundColor: 'rgba(153, 102, 255, 0.2)' ,borderColor: 'rgb(153, 102, 255)' },
+      { label: 'Rata-Rata Laju Pertumbuhan PDRB', data: dataB,backgroundColor: 'rgba(54, 162, 235, 0.2)',borderColor: 'rgba(54, 162, 235, 1)' }
     ];
 
     // Configure the chart
