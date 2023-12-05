@@ -1,0 +1,48 @@
+CRITICAL - 2023-12-02 11:57:51 --> Undefined variable $all_data_KepadatanPenduduk
+in APPPATH\Views\index_IPM.php on line 149.
+ 1 APPPATH\Views\index_IPM.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_data_KepadatanPenduduk', 'C:\\xampp\\htdocs\\dashboard_statof\\app\\Views\\index_IPM.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboard_statof\\app\\Views\\index_IPM.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index_IPM', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('index_IPM', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index_IPM()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dashboard_statof\\public\\index.php')
+CRITICAL - 2023-12-02 12:05:34 --> Array to string conversion
+in APPPATH\Views\index_IPM.php on line 151.
+ 1 APPPATH\Views\index_IPM.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\dashboard_statof\\app\\Views\\index_IPM.php', 151)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboard_statof\\app\\Views\\index_IPM.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index_IPM', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('index_IPM', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index_IPM()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dashboard_statof\\public\\index.php')
+CRITICAL - 2023-12-02 12:14:05 --> Array to string conversion
+in APPPATH\Views\index_IPM.php on line 72.
+ 1 APPPATH\Views\index_IPM.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\dashboard_statof\\app\\Views\\index_IPM.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboard_statof\\app\\Views\\index_IPM.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index_IPM', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('index_IPM', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index_IPM()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dashboard_statof\\public\\index.php')
+CRITICAL - 2023-12-02 13:41:40 --> Undefined variable $Data2018
+in APPPATH\Views\index_IPM.php on line 137.
+ 1 APPPATH\Views\index_IPM.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Data2018', 'C:\\xampp\\htdocs\\dashboard_statof\\app\\Views\\index_IPM.php', 137)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dashboard_statof\\app\\Views\\index_IPM.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index_IPM', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('index_IPM', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index_IPM()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dashboard_statof\\public\\index.php')
